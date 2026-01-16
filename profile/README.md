@@ -1,6 +1,6 @@
 # SemOps-Ai
 
-> Open source infrastructure for AI-forward organizations built on semantic operations principles.
+> Open source infrastructure for AI-forward organizations built on Semantic Operations.
 
 ---
 
