@@ -1,4 +1,4 @@
-# SemOps.ai Labs
+# SemOps-Ai
 
 > Open source infrastructure for AI-forward organizations built on semantic operations principles.
 
