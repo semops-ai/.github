@@ -4,6 +4,14 @@
 
 ---
 
+## Why "Semantics"
+
+Why "Semantic Operations" and why do so many other components and concepts contain the word "semantic"?.
+
+"Semantics" is "meaning", and I believe that meaning plays an extra-pivotal role in AI and analytics. Semantics is just meaning that is explicit, validated, and encoded - in other words, meaning structures that machines and humans can work with. When I began working on what would become the Semantic Operations (SemOps), "semantics" wasnt't a goal or focus, but as I continued to understand and build more, it asserted itself as the  central concept.
+
+---
+
 ## What is Semantic Operations?
 
 **Semantic Operations (SemOps)** is a framework for aligning technology and organization to materially benefit from AI. It addresses the fundamental problem: AI amplifies organizational gaps, it doesn't fix them.
