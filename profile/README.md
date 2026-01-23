@@ -14,14 +14,22 @@ Why "Semantic Operations" and why do so many other components and concepts conta
 
 ## What is Semantic Operations?
 
-**Semantic Operations (SemOps)** is a framework for aligning technology and organization to materially benefit from AI. It addresses the fundamental problem: AI amplifies organizational gaps, it doesn't fix them.
+> **Semantic Operations (SemOps)** is a practical, actionable framework for businesses to align their technology and organization to materially benefit from the use of data, AI, and agentic systems.
 
 **Core thesis:** Shared semantic context enables better human+AI collaboration. When meaning is explicit, structured, and maintained, AI agents become reliable collaborators instead of unpredictable tools.
 
-**Three Pillars:**
+### Problem Space
+
+> What is AI good at? 
+> What conditions optimize for its strengths? 
+> Which of those conditions also improve non-AI challenges?
+> If these conditions exist, what other optimizations for humans and machines are possible?
+
+### Four Pillars
 
 | Pillar | What It Solves |
 |--------|----------------|
+| **[Symantic Funnel](../../semops-docs/SEMANTIC_OPERATIONS_FRAMEWORK/semantic-funnel.md)** | A mental model to ground solutions in foundational human and organizational space. |
 | **Strategic Data** | Data as first-class citizen. Structure enables AI; AI accelerates structure. |
 | **Symbiotic Architecture** | Your software = your organization = your product. DDD at enterprise scale. |
 | **Semantic Optimization** | Measuring and maintaining *meaning* as operational infrastructure. |
@@ -53,6 +61,8 @@ semops-dx-orchestrator [PLATFORM / DX]
 
 ### Repositories
 
+See [Repository Operational Model](../../semops-dx-orchestrator/docs/repository-operational-model.md) for an explanation of how this multi-repo model aligns with sound agentic practices as well as Semantic Operations.
+
 | Repo | Purpose | Status |
 |------|---------|--------|
 | [semops-dx-orchestrator](https://github.com/semops-ai/semops-dx-orchestrator) | Orchestration layer - process, tooling, global architecture | Active |
@@ -63,45 +73,15 @@ semops-dx-orchestrator [PLATFORM / DX]
 
 ---
 
-## Key Concepts
-
-### Pattern as Aggregate Root
-
-SemOps implements Domain-Driven Design with **Pattern as the aggregate root** - a reusable unit of meaning with a business purpose. Patterns are:
-
-- **Measured** for semantic coherence (stability, availability, consistency)
-- **Versioned** with explicit provenance (1P innovation vs 3P adoption)
-- **Connected** via typed edges in a knowledge graph
-
-### The Semantic Flywheel
-
-AI needs structure to operate well. AI is also good at creating structure. This creates a virtuous cycle:
-
-1. Human-defined structure enables AI to produce better outputs
-2. Better outputs feed back as structured artifacts
-3. More structure enables better AI
-4. Each turn improves semantic coherence
-
-### Stable Core, Flexible Edge
-
-Growth happens at the edge (new patterns, experiments, drafts). Stability lives in the core (approved patterns, schemas, production). The lifecycle:
-
-```
-Orphan → Classified → Approved → Core
-  │          │           │         │
-  │          │           │         └─ Stable, measured
-  │          │           └─ Production-ready
-  │          └─ Typed, validated
-  └─ New, unstructured
-```
-
----
-
 ## Getting Started
 
 ### For Exploration
 
 Start with [semops-dx-orchestrator](https://github.com/semops-ai/semops-dx-orchestrator) - it contains the global architecture documentation and entry points.
+
+Review the [Global Architecture](../../semops-docs/SEMANTIC_OPERATIONS_FRAMEWORK/GLOBAL_ARCHITECTURE_PROPOSED.md) being built to support a robust test-bed for SemOps.
+
+
 
 ### For Data Engineering
 
