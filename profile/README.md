@@ -1,121 +1,56 @@
-# SemOps-Ai
+# Semantic Operations (SemOps)
 
-> Open source infrastructure for AI-forward organizations built on Semantic Operations.
+Why "Semantic Operations"? Because semantics is meaning - and meaning is the critical currency in knowledge work.
 
----
+Every business system, every decision process, every AI integration ultimately depends on shared meaning: Do we agree on what "customer" means? Does the data pipeline preserve the intent of the original measurement? Can the AI agent understand the domain well enough to act correctly?
 
-## Why "Semantics"
+Semantics is meaning made explicit, validated, and encoded - structures that both humans and machines can work with. When I began exploring what would become SemOps, semantics wasn't the goal. But as I continued to understand and build, it asserted itself as the central concept.
 
-Why "Semantic Operations" and why do so many other components and concepts contain the word "semantic"?.
+## The Problem
 
-"Semantics" is "meaning", and I believe that meaning plays an extra-pivotal role in AI and analytics. Semantics is just meaning that is explicit, validated, and encoded - in other words, meaning structures that machines and humans can work with. When I began working on what would become the Semantic Operations (SemOps), "semantics" wasnt't a goal or focus, but as I continued to understand and build more, it asserted itself as the  central concept.
+SemOps emerged from exploring data, analytics, ML, and AI as business accelerators from two directions.
 
----
+**Top down:** Current trends, theoretical foundations, and twenty years of experience building data-driven products. The signal was clear - organizational AI integration is not meeting ROI expectations.
 
-## What is Semantic Operations?
+**Bottom up:** Technical exploration of how AI actually works, learning by building. Here the signal was different - autonomous agents, simplified systems, diverse use-cases, and alignment with good data practices all show significant promise.
 
-> **Semantic Operations (SemOps)** is a practical, actionable framework for businesses to align their technology and organization to materially benefit from the use of data, AI, and agentic systems.
+The gap reveals something fundamental: **AI excels where systems enforce coherent meaning.** This means environments where both machines and humans understand and work with the same semantic objects - the concepts, rules, and relationships that define the domain.
 
-**Core thesis:** Shared semantic context enables better human+AI collaboration. When meaning is explicit, structured, and maintained, AI agents become reliable collaborators instead of unpredictable tools.
+This isn't a new problem. Organizations have always struggled to align data, analytics, and enterprise systems around shared meaning - AI just exposes it faster and compounds the consequences.
 
-### Problem Space
+## The Solution
 
-> What is AI good at? 
-> What conditions optimize for its strengths? 
-> Which of those conditions also improve non-AI challenges?
-> If these conditions exist, what other optimizations for humans and machines are possible?
+**Semantic Operations (SemOps)** is a practical, actionable framework for businesses to align their technology and organization to materially benefit from the use of data, AI, and agentic systems.
 
-### Four Pillars
+**Scope:** Driving business value through AI and analytics, with organization-wide improvements for technical and non-technical teams.
 
-| Pillar | What It Solves |
-|--------|----------------|
-| **[Symantic Funnel](../../semops-docs/SEMANTIC_OPERATIONS_FRAMEWORK/semantic-funnel.md)** | A mental model to ground solutions in foundational human and organizational space. |
-| **Strategic Data** | Data as first-class citizen. Structure enables AI; AI accelerates structure. |
-| **Symbiotic Architecture** | Your software = your organization = your product. DDD at enterprise scale. |
-| **Semantic Optimization** | Measuring and maintaining *meaning* as operational infrastructure. |
+**Value Proposition:**
 
----
+1. Understand what AI is actually good at (and what it isn't)
+2. Build the conditions AI needs to do what it's good at
+3. Recognize that most of these conditions are things you should do anyway
+4. Deploy specific solutions that both build the conditions and employ AI for maximum benefit
 
-## Repository Map
+### The Framework
 
-```
-semops-dx-orchestrator [PLATFORM / DX]
-│
-│   Process docs, global architecture, cross-repo coordination
-│   The entry point for humans and AI agents
-│
-└── semops-core [SCHEMA / INFRASTRUCTURE]
-    │
-    │   Global schema, knowledge graph, shared services
-    │   The "semantic operations" hypothesis implemented
-    │
-    ├── semops-publisher [PUBLISHING]
-    │   AI-assisted content workflow
-    │
-    ├── semops-data [PRODUCT]
-    │   Data engineering utilities, research RAG pipeline
-    │
-    └── semops-sites [FRONTEND]
-        Public-facing websites and deployed applications
-```
+SemOps is built on a mental model and three pillars that create the conditions for humans, AI, and systems in general to collaborate effectively.
 
-### Repositories
+**Semantic Funnel** - A mental model that grounds the complexity of AI, data, and human systems in three entities and one knowledge process.
 
-See [Repository Operational Model](../../semops-dx-orchestrator/docs/repository-operational-model.md) for an explanation of how this multi-repo model aligns with sound agentic practices as well as Semantic Operations.
+**Strategic Data** - A playbook for making data a first-class strategic asset for AI and all decision processes.
 
-| Repo | Purpose | Status |
-|------|---------|--------|
-| [semops-dx-orchestrator](https://github.com/semops-ai/semops-dx-orchestrator) | Orchestration layer - process, tooling, global architecture | Active |
-| [semops-core](https://github.com/semops-ai/semops-core) | Schema and infrastructure - knowledge graph, shared services | Active |
-| [semops-publisher](https://github.com/semops-ai/semops-publisher) | AI-assisted content publishing workflow | Active |
-| [semops-data](https://github.com/semops-ai/semops-data) | Data engineering utilities and research RAG pipeline | Active |
-| [semops-sites](https://github.com/semops-ai/semops-sites) | Public-facing websites and deployed applications | Active |
+**Symbiotic Architecture** - Encode your strategy into your systems so humans and AI can operate from shared structure.
 
----
+**Semantic Optimization** - Elevate your whole organization to operate like well-designed software—agent-ready, self-validating, and ready for expansion through patterns, not features.
 
-## Getting Started
+Each pillar provides value independent of AI. Together, they create an environment where decisions and state are clear, ideas exist as human-readable patterns that agents can work with directly, and AI performs better because it has wider context and a well-understood domain.
 
-### For Exploration
+## How We Deliver It
 
-Start with [semops-dx-orchestrator](https://github.com/semops-ai/semops-dx-orchestrator) - it contains the global architecture documentation and entry points.
+SemOps is both theory and practice:
 
-Review the [Global Architecture](../../semops-docs/SEMANTIC_OPERATIONS_FRAMEWORK/GLOBAL_ARCHITECTURE_PROPOSED.md) being built to support a robust test-bed for SemOps.
+**Documentation** - Frameworks, concepts, and patterns available as structured GitHub docs. These explain the "why" and "what" at varying levels of depth.
 
+**Open Source Implementation** - Tools and infrastructure for AI-forward organizations, built on SemOps principles. Available through [SemOps.ai Labs](https://github.com/semops-ai).
 
-
-### For Data Engineering
-
-Check [semops-data](https://github.com/semops-ai/semops-data) for the research RAG pipeline and data utilities.
-
-### For Infrastructure
-
-See [semops-core](https://github.com/semops-ai/semops-core) for schema definitions, Docker infrastructure, and knowledge graph setup.
-
----
-
-## Tech Stack
-
-| Layer | Technologies |
-|-------|--------------|
-| **Database** | PostgreSQL (Supabase), Neo4j (graph) |
-| **Vectors** | Qdrant, pgvector |
-| **ML/Embeddings** | Ollama (local), OpenAI |
-| **Document Processing** | Docling (PDF/DOCX), Crawl4AI (web) |
-| **Orchestration** | n8n, Python |
-| **Frontend** | Next.js, React, Tailwind, Vercel |
-| **AI** | Anthropic Claude, OpenAI |
-
----
-
-## About
-
-**SemOps.ai Labs** is maintained by [Tim Mitchell](https://timjmitchell.com) - a product leader with 20+ years experience at Microsoft, Amazon, and Roku, now focused on practical AI integration strategies.
-
-**Website:** [semops.ai](https://semops.ai)
-**LinkedIn:** [linkedin.com/in/timjmitchell](https://linkedin.com/in/timjmitchell)
-
----
-
-## License
-
-All repositories in this organization are licensed under [AGPL-3.0](LICENSE) unless otherwise noted.
+**Proving Ground** - We use this framework to build itself. The repos, processes, and agents that produce SemOps content are themselves implementations of the framework - demonstrating the approach at small scale while designing for enterprise applicability.
